@@ -1,7 +1,6 @@
 from tkinter import *
 from datetime import datetime
 from time import strftime
-from tkinter.font import BOLD
 
 WIN =  Tk()
 WIN.maxsize(480, 120)
@@ -15,7 +14,7 @@ def stay_on_top():
 
 a = datetime.today().strftime("%A")
 b = (a.upper())
-c = (b[0:2]) 
+c = (b[0:3]) 
 
 frame =  Frame(WIN, width=750, height=200, bg="black")
 frame.pack(expand=True)
@@ -40,17 +39,17 @@ label1.place(x=300, y=10)
 
 def labels():
 
-    l3=Label(frame, font=('Century Gothic',10),bg='#0e1013',fg='#7f7f7f',text='DAY')
-    l3.place(x=378, y=80)
+    label2=Label(frame, font=('Century Gothic',10),bg='#0e1013',fg='#7f7f7f',text='DAY')
+    label2.place(x=392, y=80)
 
-    l4=Label(frame, font=('Century Gothic',10),bg='#0e1013',fg='#7f7f7f',text='HOURS')
-    l4.place(x=48, y=80)
+    label3=Label(frame, font=('Century Gothic',10),bg='#0e1013',fg='#7f7f7f',text='HOURS')
+    label3.place(x=46, y=80)
 
-    l5=Label(frame, font=('Century Gothic',10),bg='#0e1013',fg='#7f7f7f',text='MINUTES')
-    l5.place(x=134, y=80)
+    label4=Label(frame, font=('Century Gothic',10),bg='#0e1013',fg='#7f7f7f',text='MINUTES')
+    label4.place(x=134, y=80)
  
-    l3=Label(frame, font=('Century Gothic',10),bg='#0e1013',fg='#7f7f7f',text='SECONDS')
-    l3.place(x=230, y=80)
+    label5=Label(frame, font=('Century Gothic',10),bg='#0e1013',fg='#7f7f7f',text='SECONDS')
+    label5.place(x=230, y=80)
 
 labels()
 
