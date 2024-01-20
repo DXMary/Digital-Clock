@@ -36,17 +36,17 @@ label2 = Label(frame, font=('Century Gothic', 50), bg='black', fg='white', text=
 label2.place(x=300, y=10)
 
 def labels():
-    label3 = Label(frame, font=('Century Gothic', 10), bg='#0e1013', fg='#7f7f7f', text='DAY')
-    label3.place(x=392, y=80)
+    label3 = Label(frame, font=('Century Gothic', 10), bg='#0e1013', fg='#7f7f7f', text='JOUR')
+    label3.place(x=392, y=100)
 
-    label4 = Label(frame, font=('Century Gothic', 10), bg='#0e1013', fg='#7f7f7f', text='HOURS')
-    label4.place(x=46, y=80)
+    label4 = Label(frame, font=('Century Gothic', 10), bg='#0e1013', fg='#7f7f7f', text='HEURES')
+    label4.place(x=46, y=100)
 
     label5 = Label(frame, font=('Century Gothic', 10), bg='#0e1013', fg='#7f7f7f', text='MINUTES')
-    label5.place(x=134, y=80)
+    label5.place(x=134, y=100)
 
-    label6 = Label(frame, font=('Century Gothic', 10), bg='#0e1013', fg='#7f7f7f', text='SECONDS')
-    label6.place(x=230, y=80)
+    label6 = Label(frame, font=('Century Gothic', 10), bg='#0e1013', fg='#7f7f7f', text='SECONDES')
+    label6.place(x=230, y=100)
 
 labels()
 
